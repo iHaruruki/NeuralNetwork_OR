@@ -3,7 +3,7 @@ import numpy as np
 # 2-input perceptron fanction
 def perceptron(x1,x2, w1, w2, theta):
     f = x1*w1 + x2*w2
-    if f >= theta:
+    if f <= theta:
         y = 0
     else:
         y = 1
@@ -19,4 +19,4 @@ for i in range(4):
     X1 = x1[i]
     X2 = x2[i]
     y = perceptron(X1, X2, w1, w2, theta)
-    print("x1 = ", x1, " x2 = ", x2, " y = ", y)
+    print("x1 = ", X1, " x2 = ", X2, " y = ", y)

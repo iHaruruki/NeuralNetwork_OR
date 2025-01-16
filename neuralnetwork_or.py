@@ -9,6 +9,7 @@ def perceptron(x1,x2, w1, w2, theta):
         y = 1
     return y
 
+# input data
 x1 = np.array([0,0,1,1])
 x2 = np.array([0,1,0,1])
 w1 = 0.5

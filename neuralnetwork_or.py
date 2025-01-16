@@ -16,7 +16,7 @@ w2 = 0.5
 theta = 0.2
 
 for i in range(4):
-    x1 = x1[i]
-    x2 = x2[i]
-    y = perceptron(x1, x2, w1, w2, theta)
+    X1 = x1[i]
+    X2 = x2[i]
+    y = perceptron(X1, X2, w1, w2, theta)
     print("x1 = ", x1, " x2 = ", x2, " y = ", y)

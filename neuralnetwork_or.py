@@ -19,4 +19,4 @@ for i in range(4):
     x1 = x1[i]
     x2 = x2[i]
     y = perceptron(x1, x2, w1, w2, theta)
-    print("x1 = ", x1[i], " x2 = ", x2[i], " y = ", y)
+    print("x1 = ", x1, " x2 = ", x2, " y = ", y)
